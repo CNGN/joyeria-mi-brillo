@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+}
+
+p {
+    color: rgb(72, 109, 109);
+    font-size: 30px
+}
+
+/*poner un borde a la imagen.
+ancho - tipo de borde - color*/
+img {
+    border: 3px solid black;
+}
+
+/* para cambiar el tipo de vinieta a un cierculo */
+ul {
+    list-style-type: circle;
+}
+
+/* para agregar espacio entre los item de la lista */
+li {
+    margin-bottom: 20px;
+}
+
+/* para cambiar el color del link a violeta */
+a {
+    color: violet;
+}
+
+/* cuando el mouse este encima del link,
+que se subraye y cambie de color */
+a:hover {
+    color: blueviolet;
+}
